@@ -1,0 +1,28 @@
+White cedar|50
+Black Ash|70
+White Ash|80
+Bigtooth Aspen|80
+Basswood|130
+American Beech|70
+Black Birch|50
+Butternut|60
+Black Cherry|80
+American Chestnut|90
+Cottonwood|100
+American Elm|80
+Hawthorn|30
+Hemlock|100
+Shagbark Hickory|80
+American Hornbeam|40
+American Larch|60
+Black Locust|82
+Red Maple|90
+Sugar Maple|75
+Black Oak|150
+White Oak|80
+Red Pine|75
+White Pine|210
+Sycamore|100
+Tulip Tree|90
+Black Walnut|75
+Black Willow|100

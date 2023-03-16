@@ -1,0 +1,19 @@
+Savings|1234567899|Julian Chattopadhyay|987.0|98.0
+Savings|1611255756|Lara Stevens|75000.0|9.25
+Investment|3662171004|Lily Daves|8800.0|Growth
+Investment|3662171104|Robert Miller|18865.0|Growth
+Checking|4013909576|William Burst|10000.0
+Investment|5731091336|Tracey Bold|19500.0|Property
+Investment|5976426552|Abigail Clark|11255.0|Shares
+Savings|5976426552|Amy Clark|250.0|5.68
+Savings|6314365504|Emily Something|22584.76|3.89
+Savings|6316665504|Emma Stevens|31250.0|8.89
+Checking|6385472602|Nathan Steward|24900.0
+Checking|7548328551|George Duck|29990.0
+Checking|7548328551|Doug Washington|195478.0
+Checking|7695140487|Tom Sullivan|12734.0
+Savings|9195140487|Andrew Sullivan|12734.0|12.1
+Savings|9938105334|Isabel Truman|89250.0|10.5
+Checking|9938775334|Isabel Stevens|1489250.0
+Investment|1234567899|ye fc|987.0|Shares
+Investment|1234567890|Julian|98.0|Shares

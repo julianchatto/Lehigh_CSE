@@ -1,0 +1,9 @@
+Bat Ghost 0.5 20 100
+Bird Parrot 59.2 50 50
+Cat Persian 128 15
+Bat HorseShoe 0.3 7 18
+Bat Bulldog 0.99 10 83
+Cat Sphynx 160 10
+Bird Owl 32.0 25 20
+Bird Hummingbird 0.16 5 61
+Cat Munchkin 96 12

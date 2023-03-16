@@ -1,0 +1,5 @@
+lab PA-110 65 150 45
+office PA-252 2 36 Houria Oudghiri
+lab PA-202 45 100 25
+classroom PA-101 20 45
+lab PA-100 47 120 40
