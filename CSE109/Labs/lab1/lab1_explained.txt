@@ -1,0 +1,15 @@
+swap1
+    a) The literal binary representation of the numbers x and y are being passed to swap
+    b) The program did not swap the values for x and y because the program creates new values for a and b and then swaps them, not x and y
+
+swap2 
+    a) The memory address that holds the binary representation of the two numbers is passed to swap
+    b) The program did not swap the values for x and y because although the program recieves the memory address for x and y, the swap function uses the literal values of a nd b and therefore does not modify x and y
+
+swap3
+    a) A pointer to x and y is past into swamp
+    b) The program did not swap the values for x and y because like 2, the swap function uses the literal values of a nd b and therefore does not modify x and y
+
+swap4
+    a) The memory address that holds the binary representation of the two numbers is passed to swap
+    b) The program did swap the values for x and y because the program modifies the values for x and y in the memory address

@@ -1,0 +1,323 @@
+
+argc (at address 0x7ffec243671c) has value 1
+argv (at address 0x7ffec2436710) has value 0x7ffec24367f8
+envp (at address 0x7ffec2436708) has value 0x7ffec2436808
+
+argv (at address 0x7ffec24366c8) points to address 0x7ffec24367f8
+	argv[0] (at address 0x7ffec24367f8) points to address 0x7ffec2436bb9 where this string of 8 bytes is stored: 'lab4_ref'
+	argv[1] (at address 0x7ffec2436800) is (null)
+
+envp (at address 0x7ffec24366c8) points to address 0x7ffec2436808
+	envp[0] (at address 0x7ffec2436808) points to address 0x7ffec2436bc2 where this string of 55 bytes is stored: 'LD_LIBRARY_PATH=/opt/gcc-7.1.0/lib64:/opt/gcc-7.1.0/lib'
+	envp[1] (at address 0x7ffec2436810) points to address 0x7ffec2436bfa where this string of 54 bytes is stored: 'SSH_CONNECTION=128.180.219.115 59991 128.180.120.79 22'
+	envp[2] (at address 0x7ffec2436818) points to address 0x7ffec2436c31 where this string of 49 bytes is stored: 'MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD'
+	envp[3] (at address 0x7ffec2436820) points to address 0x7ffec2436c63 where this string of 16 bytes is stored: 'LANG=en_US.UTF-8'
+	envp[4] (at address 0x7ffec2436828) points to address 0x7ffec2436c74 where this string of 24 bytes is stored: 'HISTIGNORE=ls:ps:history'
+	envp[5] (at address 0x7ffec2436830) points to address 0x7ffec2436c8d where this string of 22 bytes is stored: 'HISTCONTROL=ignoredups'
+	envp[6] (at address 0x7ffec2436838) points to address 0x7ffec2436ca4 where this string of 46 bytes is stored: 'CARGO_TARGET_DIR=/scratch/.cargo/juc226/target'
+	envp[7] (at address 0x7ffec2436840) points to address 0x7ffec2436cd3 where this string of 13 bytes is stored: 'HOSTNAME=mars'
+	envp[8] (at address 0x7ffec2436848) points to address 0x7ffec2436ce1 where this string of 40 bytes is stored: 'GRADLE_USER_HOME=/scratch/.gradle/juc226'
+	envp[9] (at address 0x7ffec2436850) points to address 0x7ffec2436d0a where this string of 163 bytes is stored: 'PATH_modshare=/usr/sbin:1:/opt/conda3/bin:1:/usr/bin:1:.:1:/opt/gradle-7.4.2/bin:1:/usr/local/sbin:1:/opt/gcc-7.1.0/bin:1:/usr/share/Modules/bin:1:/usr/local/bin:1'
+	envp[10] (at address 0x7ffec2436858) points to address 0x7ffec2436dae where this string of 34 bytes is stored: 'LOADEDMODULES_modshare=gcc-7.1.0:1'
+	envp[11] (at address 0x7ffec2436860) points to address 0x7ffec2436dd1 where this string of 19 bytes is stored: 'COLORTERM=truecolor'
+	envp[12] (at address 0x7ffec2436868) points to address 0x7ffec2436de5 where this string of 27 bytes is stored: 'JAVA_HOME=/usr/lib/jvm/java'
+	envp[13] (at address 0x7ffec2436870) points to address 0x7ffec2436e01 where this string of 30 bytes is stored: 'VSCODE_GIT_ASKPASS_EXTRA_ARGS='
+	envp[14] (at address 0x7ffec2436878) points to address 0x7ffec2436e20 where this string of 31 bytes is stored: 'CFLAGS=-I/opt/gcc-7.1.0/include'
+	envp[15] (at address 0x7ffec2436880) points to address 0x7ffec2436e40 where this string of 13 bytes is stored: 'S_COLORS=auto'
+	envp[16] (at address 0x7ffec2436888) points to address 0x7ffec2436e4e where this string of 24 bytes is stored: 'which_declare=declare -f'
+	envp[17] (at address 0x7ffec2436890) points to address 0x7ffec2436e67 where this string of 68 bytes is stored: 'LD_LIBRARY_PATH_modshare=/opt/gcc-7.1.0/lib:1:/opt/gcc-7.1.0/lib64:1'
+	envp[18] (at address 0x7ffec2436898) points to address 0x7ffec2436eac where this string of 25 bytes is stored: 'CC=/opt/gcc-7.1.0/bin/gcc'
+	envp[19] (at address 0x7ffec24368a0) points to address 0x7ffec2436ec6 where this string of 19 bytes is stored: 'XDG_SESSION_ID=3090'
+	envp[20] (at address 0x7ffec24368a8) points to address 0x7ffec2436eda where this string of 52 bytes is stored: 'MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl'
+	envp[21] (at address 0x7ffec24368b0) points to address 0x7ffec2436f0f where this string of 11 bytes is stored: 'USER=juc226'
+	envp[22] (at address 0x7ffec24368b8) points to address 0x7ffec2436f1b where this string of 32 bytes is stored: 'CONDA_PKGS_DIRS=/opt/conda3/pkgs'
+	envp[23] (at address 0x7ffec24368c0) points to address 0x7ffec2436f3c where this string of 33 bytes is stored: 'PWD=/home/juc226/CSE109/Labs/lab4'
+	envp[24] (at address 0x7ffec24368c8) points to address 0x7ffec2436f5e where this string of 50 bytes is stored: 'SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass'
+	envp[25] (at address 0x7ffec24368d0) points to address 0x7ffec2436f91 where this string of 17 bytes is stored: 'HOME=/home/juc226'
+	envp[26] (at address 0x7ffec24368d8) points to address 0x7ffec2436fa3 where this string of 106 bytes is stored: 'BROWSER=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'
+	envp[27] (at address 0x7ffec24368e0) points to address 0x7ffec243700e where this string of 104 bytes is stored: 'VSCODE_GIT_ASKPASS_NODE=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'
+	envp[28] (at address 0x7ffec24368e8) points to address 0x7ffec2437077 where this string of 19 bytes is stored: 'TERM_PROGRAM=vscode'
+	envp[29] (at address 0x7ffec24368f0) points to address 0x7ffec243708b where this string of 35 bytes is stored: 'SSH_CLIENT=128.180.219.115 59991 22'
+	envp[30] (at address 0x7ffec24368f8) points to address 0x7ffec24370af where this string of 21 bytes is stored: 'REALHOME=/home/juc226'
+	envp[31] (at address 0x7ffec2436900) points to address 0x7ffec24370c5 where this string of 27 bytes is stored: 'TERM_PROGRAM_VERSION=1.76.0'
+	envp[32] (at address 0x7ffec2436908) points to address 0x7ffec24370e1 where this string of 120 bytes is stored: 'XDG_DATA_DIRS=/home/juc226/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'
+	envp[33] (at address 0x7ffec2436910) points to address 0x7ffec243715a where this string of 47 bytes is stored: '_LMFILES__modshare=/etc/modulefiles/gcc-7.1.0:1'
+	envp[34] (at address 0x7ffec2436918) points to address 0x7ffec243718a where this string of 89 bytes is stored: 'VSCODE_IPC_HOOK_CLI=/run/user/296436/vscode-ipc-57fbf3c6-226e-4b93-af87-b2587fbbefca.sock'
+	envp[35] (at address 0x7ffec2436920) points to address 0x7ffec24371e4 where this string of 33 bytes is stored: 'CARGO_HOME=/scratch/.cargo/juc226'
+	envp[36] (at address 0x7ffec2436928) points to address 0x7ffec2437206 where this string of 23 bytes is stored: 'LOADEDMODULES=gcc-7.1.0'
+	envp[37] (at address 0x7ffec2436930) points to address 0x7ffec243721e where this string of 176 bytes is stored: '_JAVA_OPTIONS=-Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -DformatMsgNoLookups=true'
+	envp[38] (at address 0x7ffec2436938) points to address 0x7ffec24372cf where this string of 27 bytes is stored: 'MAIL=/var/spool/mail/juc226'
+	envp[39] (at address 0x7ffec2436940) points to address 0x7ffec24372eb where this string of 32 bytes is stored: 'LOG4J_FORMAT_MSG_NO_LOOKUPS=true'
+	envp[40] (at address 0x7ffec2436948) points to address 0x7ffec243730c where this string of 135 bytes is stored: 'VSCODE_GIT_ASKPASS_MAIN=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'
+	envp[41] (at address 0x7ffec2436950) points to address 0x7ffec2437394 where this string of 19 bytes is stored: 'TERM=xterm-256color'
+	envp[42] (at address 0x7ffec2436958) points to address 0x7ffec24373a8 where this string of 15 bytes is stored: 'SHELL=/bin/bash'
+	envp[43] (at address 0x7ffec2436960) points to address 0x7ffec24373b8 where this string of 40 bytes is stored: 'MANPATH_modshare=:1:/opt/gcc-7.1.0/man:1'
+	envp[44] (at address 0x7ffec2436968) points to address 0x7ffec24373e1 where this string of 11 bytes is stored: 'TMOUT=86400'
+	envp[45] (at address 0x7ffec2436970) points to address 0x7ffec24373ed where this string of 7 bytes is stored: 'SHLVL=5'
+	envp[46] (at address 0x7ffec2436978) points to address 0x7ffec24373f5 where this string of 65 bytes is stored: 'VSCODE_GIT_IPC_HANDLE=/run/user/296436/vscode-git-5ffaeef9c9.sock'
+	envp[47] (at address 0x7ffec2436980) points to address 0x7ffec2437437 where this string of 28 bytes is stored: 'MANPATH=/opt/gcc-7.1.0/man::'
+	envp[48] (at address 0x7ffec2436988) points to address 0x7ffec2437454 where this string of 102 bytes is stored: 'MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles'
+	envp[49] (at address 0x7ffec2436990) points to address 0x7ffec24374bb where this string of 14 bytes is stored: 'LOGNAME=juc226'
+	envp[50] (at address 0x7ffec2436998) points to address 0x7ffec24374ca where this string of 55 bytes is stored: 'DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/296436/bus'
+	envp[51] (at address 0x7ffec24369a0) points to address 0x7ffec2437502 where this string of 118 bytes is stored: 'GIT_ASKPASS=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'
+	envp[52] (at address 0x7ffec24369a8) points to address 0x7ffec2437579 where this string of 32 bytes is stored: 'XDG_RUNTIME_DIR=/run/user/296436'
+	envp[53] (at address 0x7ffec24369b0) points to address 0x7ffec243759a where this string of 96 bytes is stored: 'MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2'
+	envp[54] (at address 0x7ffec24369b8) points to address 0x7ffec24375fb where this string of 227 bytes is stored: 'PATH=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/gcc-7.1.0/bin:.:/usr/share/Modules/bin:/opt/gradle-7.4.2/bin:/opt/conda3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'
+	envp[55] (at address 0x7ffec24369c0) points to address 0x7ffec24376df where this string of 36 bytes is stored: '_LMFILES_=/etc/modulefiles/gcc-7.1.0'
+	envp[56] (at address 0x7ffec24369c8) points to address 0x7ffec2437704 where this string of 37 bytes is stored: 'PS1=\[]633;A\]mars:\w% \[]633;B\]'
+	envp[57] (at address 0x7ffec24369d0) points to address 0x7ffec243772a where this string of 47 bytes is stored: 'DEBUGINFOD_URLS=https://debuginfod.centos.org/ '
+	envp[58] (at address 0x7ffec24369d8) points to address 0x7ffec243775a where this string of 26 bytes is stored: 'GCC=/opt/gcc-7.1.0/bin/gcc'
+	envp[59] (at address 0x7ffec24369e0) points to address 0x7ffec2437775 where this string of 30 bytes is stored: 'MODULESHOME=/usr/share/Modules'
+	envp[60] (at address 0x7ffec24369e8) points to address 0x7ffec2437794 where this string of 14 bytes is stored: 'HISTSIZE=65536'
+	envp[61] (at address 0x7ffec24369f0) points to address 0x7ffec24377a3 where this string of 18 bytes is stored: 'HISTFILESIZE=65536'
+	envp[62] (at address 0x7ffec24369f8) points to address 0x7ffec24377b6 where this string of 34 bytes is stored: 'LESSOPEN=||/usr/bin/lesspipe.sh %s'
+	envp[63] (at address 0x7ffec2436a00) points to address 0x7ffec24377d9 where this string of 144 bytes is stored: 'BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}'
+	envp[64] (at address 0x7ffec2436a08) points to address 0x7ffec243786a where this string of 1087 bytes is stored: 'BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}'
+	envp[65] (at address 0x7ffec2436a10) points to address 0x7ffec2437caa where this string of 644 bytes is stored: 'BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}'
+	envp[66] (at address 0x7ffec2436a18) points to address 0x7ffec2437f2f where this string of 118 bytes is stored: 'BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}'
+	envp[67] (at address 0x7ffec2436a20) points to address 0x7ffec2437fa6 where this string of 37 bytes is stored: 'BASH_FUNC_ml%%=() {  module ml "$@"
+}'
+	envp[68] (at address 0x7ffec2436a28) points to address 0x7ffec2437fcc where this string of 19 bytes is stored: 'OLDPWD=/home/juc226'
+	envp[69] (at address 0x7ffec2436a30) points to address 0x7ffec2437fe0 where this string of 12 bytes is stored: '_=./lab4_ref'
+	envp[70] (at address 0x7ffec2436a38) is (null)
+
+argv (at address 0x7ffec24366c8) points to address 0x7ffec24367f8
+	argv[0] (at address 0x7ffec24367f8) points to address 0x7ffec2436bb9 where this string of 8 bytes is stored: 'lab4_ref'
+	argv[1] (at address 0x7ffec2436800) is (null)
+
+envp (at address 0x7ffec24366c8) points to address 0x7ffec2436808
+	envp[0] (at address 0x7ffec2436808) points to address 0x7ffec2436bc2 where this string of 55 bytes is stored: 'LD_LIBRARY_PATH=/opt/gcc-7.1.0/lib64:/opt/gcc-7.1.0/lib'
+	envp[1] (at address 0x7ffec2436810) points to address 0x7ffec2436bfa where this string of 54 bytes is stored: 'SSH_CONNECTION=128.180.219.115 59991 128.180.120.79 22'
+	envp[2] (at address 0x7ffec2436818) points to address 0x7ffec2436c31 where this string of 49 bytes is stored: 'MODULES_RUN_QUARANTINE=LD_LIBRARY_PATH LD_PRELOAD'
+	envp[3] (at address 0x7ffec2436820) points to address 0x7ffec2436c63 where this string of 16 bytes is stored: 'LANG=en_US.UTF-8'
+	envp[4] (at address 0x7ffec2436828) points to address 0x7ffec2436c74 where this string of 24 bytes is stored: 'HISTIGNORE=ls:ps:history'
+	envp[5] (at address 0x7ffec2436830) points to address 0x7ffec2436c8d where this string of 22 bytes is stored: 'HISTCONTROL=ignoredups'
+	envp[6] (at address 0x7ffec2436838) points to address 0x7ffec2436ca4 where this string of 46 bytes is stored: 'CARGO_TARGET_DIR=/scratch/.cargo/juc226/target'
+	envp[7] (at address 0x7ffec2436840) points to address 0x7ffec2436cd3 where this string of 13 bytes is stored: 'HOSTNAME=mars'
+	envp[8] (at address 0x7ffec2436848) points to address 0x7ffec2436ce1 where this string of 40 bytes is stored: 'GRADLE_USER_HOME=/scratch/.gradle/juc226'
+	envp[9] (at address 0x7ffec2436850) points to address 0x7ffec2436d0a where this string of 163 bytes is stored: 'PATH_modshare=/usr/sbin:1:/opt/conda3/bin:1:/usr/bin:1:.:1:/opt/gradle-7.4.2/bin:1:/usr/local/sbin:1:/opt/gcc-7.1.0/bin:1:/usr/share/Modules/bin:1:/usr/local/bin:1'
+	envp[10] (at address 0x7ffec2436858) points to address 0x7ffec2436dae where this string of 34 bytes is stored: 'LOADEDMODULES_modshare=gcc-7.1.0:1'
+	envp[11] (at address 0x7ffec2436860) points to address 0x7ffec2436dd1 where this string of 19 bytes is stored: 'COLORTERM=truecolor'
+	envp[12] (at address 0x7ffec2436868) points to address 0x7ffec2436de5 where this string of 27 bytes is stored: 'JAVA_HOME=/usr/lib/jvm/java'
+	envp[13] (at address 0x7ffec2436870) points to address 0x7ffec2436e01 where this string of 30 bytes is stored: 'VSCODE_GIT_ASKPASS_EXTRA_ARGS='
+	envp[14] (at address 0x7ffec2436878) points to address 0x7ffec2436e20 where this string of 31 bytes is stored: 'CFLAGS=-I/opt/gcc-7.1.0/include'
+	envp[15] (at address 0x7ffec2436880) points to address 0x7ffec2436e40 where this string of 13 bytes is stored: 'S_COLORS=auto'
+	envp[16] (at address 0x7ffec2436888) points to address 0x7ffec2436e4e where this string of 24 bytes is stored: 'which_declare=declare -f'
+	envp[17] (at address 0x7ffec2436890) points to address 0x7ffec2436e67 where this string of 68 bytes is stored: 'LD_LIBRARY_PATH_modshare=/opt/gcc-7.1.0/lib:1:/opt/gcc-7.1.0/lib64:1'
+	envp[18] (at address 0x7ffec2436898) points to address 0x7ffec2436eac where this string of 25 bytes is stored: 'CC=/opt/gcc-7.1.0/bin/gcc'
+	envp[19] (at address 0x7ffec24368a0) points to address 0x7ffec2436ec6 where this string of 19 bytes is stored: 'XDG_SESSION_ID=3090'
+	envp[20] (at address 0x7ffec24368a8) points to address 0x7ffec2436eda where this string of 52 bytes is stored: 'MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl'
+	envp[21] (at address 0x7ffec24368b0) points to address 0x7ffec2436f0f where this string of 11 bytes is stored: 'USER=juc226'
+	envp[22] (at address 0x7ffec24368b8) points to address 0x7ffec2436f1b where this string of 32 bytes is stored: 'CONDA_PKGS_DIRS=/opt/conda3/pkgs'
+	envp[23] (at address 0x7ffec24368c0) points to address 0x7ffec2436f3c where this string of 33 bytes is stored: 'PWD=/home/juc226/CSE109/Labs/lab4'
+	envp[24] (at address 0x7ffec24368c8) points to address 0x7ffec2436f5e where this string of 50 bytes is stored: 'SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass'
+	envp[25] (at address 0x7ffec24368d0) points to address 0x7ffec2436f91 where this string of 17 bytes is stored: 'HOME=/home/juc226'
+	envp[26] (at address 0x7ffec24368d8) points to address 0x7ffec2436fa3 where this string of 106 bytes is stored: 'BROWSER=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/helpers/browser.sh'
+	envp[27] (at address 0x7ffec24368e0) points to address 0x7ffec243700e where this string of 104 bytes is stored: 'VSCODE_GIT_ASKPASS_NODE=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/node'
+	envp[28] (at address 0x7ffec24368e8) points to address 0x7ffec2437077 where this string of 19 bytes is stored: 'TERM_PROGRAM=vscode'
+	envp[29] (at address 0x7ffec24368f0) points to address 0x7ffec243708b where this string of 35 bytes is stored: 'SSH_CLIENT=128.180.219.115 59991 22'
+	envp[30] (at address 0x7ffec24368f8) points to address 0x7ffec24370af where this string of 21 bytes is stored: 'REALHOME=/home/juc226'
+	envp[31] (at address 0x7ffec2436900) points to address 0x7ffec24370c5 where this string of 27 bytes is stored: 'TERM_PROGRAM_VERSION=1.76.0'
+	envp[32] (at address 0x7ffec2436908) points to address 0x7ffec24370e1 where this string of 120 bytes is stored: 'XDG_DATA_DIRS=/home/juc226/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'
+	envp[33] (at address 0x7ffec2436910) points to address 0x7ffec243715a where this string of 47 bytes is stored: '_LMFILES__modshare=/etc/modulefiles/gcc-7.1.0:1'
+	envp[34] (at address 0x7ffec2436918) points to address 0x7ffec243718a where this string of 89 bytes is stored: 'VSCODE_IPC_HOOK_CLI=/run/user/296436/vscode-ipc-57fbf3c6-226e-4b93-af87-b2587fbbefca.sock'
+	envp[35] (at address 0x7ffec2436920) points to address 0x7ffec24371e4 where this string of 33 bytes is stored: 'CARGO_HOME=/scratch/.cargo/juc226'
+	envp[36] (at address 0x7ffec2436928) points to address 0x7ffec2437206 where this string of 23 bytes is stored: 'LOADEDMODULES=gcc-7.1.0'
+	envp[37] (at address 0x7ffec2436930) points to address 0x7ffec243721e where this string of 176 bytes is stored: '_JAVA_OPTIONS=-Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -DformatMsgNoLookups=true'
+	envp[38] (at address 0x7ffec2436938) points to address 0x7ffec24372cf where this string of 27 bytes is stored: 'MAIL=/var/spool/mail/juc226'
+	envp[39] (at address 0x7ffec2436940) points to address 0x7ffec24372eb where this string of 32 bytes is stored: 'LOG4J_FORMAT_MSG_NO_LOOKUPS=true'
+	envp[40] (at address 0x7ffec2436948) points to address 0x7ffec243730c where this string of 135 bytes is stored: 'VSCODE_GIT_ASKPASS_MAIN=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass-main.js'
+	envp[41] (at address 0x7ffec2436950) points to address 0x7ffec2437394 where this string of 19 bytes is stored: 'TERM=xterm-256color'
+	envp[42] (at address 0x7ffec2436958) points to address 0x7ffec24373a8 where this string of 15 bytes is stored: 'SHELL=/bin/bash'
+	envp[43] (at address 0x7ffec2436960) points to address 0x7ffec24373b8 where this string of 40 bytes is stored: 'MANPATH_modshare=:1:/opt/gcc-7.1.0/man:1'
+	envp[44] (at address 0x7ffec2436968) points to address 0x7ffec24373e1 where this string of 11 bytes is stored: 'TMOUT=86400'
+	envp[45] (at address 0x7ffec2436970) points to address 0x7ffec24373ed where this string of 7 bytes is stored: 'SHLVL=5'
+	envp[46] (at address 0x7ffec2436978) points to address 0x7ffec24373f5 where this string of 65 bytes is stored: 'VSCODE_GIT_IPC_HANDLE=/run/user/296436/vscode-git-5ffaeef9c9.sock'
+	envp[47] (at address 0x7ffec2436980) points to address 0x7ffec2437437 where this string of 28 bytes is stored: 'MANPATH=/opt/gcc-7.1.0/man::'
+	envp[48] (at address 0x7ffec2436988) points to address 0x7ffec2437454 where this string of 102 bytes is stored: 'MODULEPATH=/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles'
+	envp[49] (at address 0x7ffec2436990) points to address 0x7ffec24374bb where this string of 14 bytes is stored: 'LOGNAME=juc226'
+	envp[50] (at address 0x7ffec2436998) points to address 0x7ffec24374ca where this string of 55 bytes is stored: 'DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/296436/bus'
+	envp[51] (at address 0x7ffec24369a0) points to address 0x7ffec2437502 where this string of 118 bytes is stored: 'GIT_ASKPASS=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/extensions/git/dist/askpass.sh'
+	envp[52] (at address 0x7ffec24369a8) points to address 0x7ffec2437579 where this string of 32 bytes is stored: 'XDG_RUNTIME_DIR=/run/user/296436'
+	envp[53] (at address 0x7ffec24369b0) points to address 0x7ffec243759a where this string of 96 bytes is stored: 'MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2'
+	envp[54] (at address 0x7ffec24369b8) points to address 0x7ffec24375fb where this string of 227 bytes is stored: 'PATH=/scratch/.vscode-server/juc226/bin/92da9481c0904c6adfe372c12da3b7748d74bdcb/bin/remote-cli:/opt/gcc-7.1.0/bin:.:/usr/share/Modules/bin:/opt/gradle-7.4.2/bin:/opt/conda3/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'
+	envp[55] (at address 0x7ffec24369c0) points to address 0x7ffec24376df where this string of 36 bytes is stored: '_LMFILES_=/etc/modulefiles/gcc-7.1.0'
+	envp[56] (at address 0x7ffec24369c8) points to address 0x7ffec2437704 where this string of 37 bytes is stored: 'PS1=\[]633;A\]mars:\w% \[]633;B\]'
+	envp[57] (at address 0x7ffec24369d0) points to address 0x7ffec243772a where this string of 47 bytes is stored: 'DEBUGINFOD_URLS=https://debuginfod.centos.org/ '
+	envp[58] (at address 0x7ffec24369d8) points to address 0x7ffec243775a where this string of 26 bytes is stored: 'GCC=/opt/gcc-7.1.0/bin/gcc'
+	envp[59] (at address 0x7ffec24369e0) points to address 0x7ffec2437775 where this string of 30 bytes is stored: 'MODULESHOME=/usr/share/Modules'
+	envp[60] (at address 0x7ffec24369e8) points to address 0x7ffec2437794 where this string of 14 bytes is stored: 'HISTSIZE=65536'
+	envp[61] (at address 0x7ffec24369f0) points to address 0x7ffec24377a3 where this string of 18 bytes is stored: 'HISTFILESIZE=65536'
+	envp[62] (at address 0x7ffec24369f8) points to address 0x7ffec24377b6 where this string of 34 bytes is stored: 'LESSOPEN=||/usr/bin/lesspipe.sh %s'
+	envp[63] (at address 0x7ffec2436a00) points to address 0x7ffec24377d9 where this string of 144 bytes is stored: 'BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}'
+	envp[64] (at address 0x7ffec2436a08) points to address 0x7ffec243786a where this string of 1087 bytes is stored: 'BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre} /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}'
+	envp[65] (at address 0x7ffec2436a10) points to address 0x7ffec2437caa where this string of 644 bytes is stored: 'BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/share/Modules/libexec/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/share/Modules/libexec/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/Modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}'
+	envp[66] (at address 0x7ffec2436a18) points to address 0x7ffec2437f2f where this string of 118 bytes is stored: 'BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then
+ eval "module $@";
+ else
+ /usr/bin/scl "$@";
+ fi
+}'
+	envp[67] (at address 0x7ffec2436a20) points to address 0x7ffec2437fa6 where this string of 37 bytes is stored: 'BASH_FUNC_ml%%=() {  module ml "$@"
+}'
+	envp[68] (at address 0x7ffec2436a28) points to address 0x7ffec2437fcc where this string of 19 bytes is stored: 'OLDPWD=/home/juc226'
+	envp[69] (at address 0x7ffec2436a30) points to address 0x7ffec2437fe0 where this string of 12 bytes is stored: '_=./lab4_ref'
+	envp[70] (at address 0x7ffec2436a38) is (null)
+

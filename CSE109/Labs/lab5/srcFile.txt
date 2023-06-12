@@ -1,0 +1,8 @@
+# this if the expected format of the file:  %zd, %zu, %hd, %s
+-1,1,255,passingTest1
+1,-1,255,passingTest2
+# let's try some interesting testcases
+99, 99,99,interestingTest1
+        99,99,99,     interestingTest2
+99,99,99,reallyVeryInterestingTest3
+
