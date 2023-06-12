@@ -1,0 +1,17 @@
+==2716406== Memcheck, a memory error detector
+==2716406== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==2716406== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==2716406== Command: filterFile srcFile.txt dstFile.txt
+==2716406== 
+Filtered line 1
+Filtered line 4
+Filtered line 8
+==2716406== 
+==2716406== HEAP SUMMARY:
+==2716406==     in use at exit: 0 bytes in 0 blocks
+==2716406==   total heap usage: 6 allocs, 6 frees, 18,504 bytes allocated
+==2716406== 
+==2716406== All heap blocks were freed -- no leaks are possible
+==2716406== 
+==2716406== For lists of detected and suppressed errors, rerun with: -s
+==2716406== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
