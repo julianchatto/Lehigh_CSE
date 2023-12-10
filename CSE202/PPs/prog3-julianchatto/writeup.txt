@@ -1,0 +1,56 @@
+Descriptions of the optimization techniques used and performance achieved:
+applyGamma
+    1)  For my first optimization, I first reduced the total function calls done by applyGamma by storing in_rows.size() 
+        rather than calling it for each iteration of the outer loop. Then, I used code motion and moved the inner loop bound outside of the 
+        loop since it is a constant value. Finally, I reduced memory references by only referencing in_rows[i][j] once per iteration. 
+        This optimization resulted in approx. 1-2000 clock ticks less than with no optimizations. The relatively small amount of clock ticks 
+        saved is due to the fact that the function is not called very often and then in_rows is only refereced 3 times per iteration.  
+    2)  For my second optimization, I used 3x3 loop unrolling. I used multiple accumulators to allow for multiple operations to be completed 
+        at once as well as reducing the number of times the loop condition needed to be checked. This optimization resulted in approx. 
+        4-8000 clock ticks less than with no optimizations. It is clear that using loop unrolling has huge effects on the performance 
+        of the applyGamma. 
+    3)  For my third optimization, I used 6x6 loop unrolling. Similar to the 3x3 loop unrolling, I used multiple accumulators to allow for
+        multiple operations to be completed at once as well as reducing the number of times the loop condition needed to be checked. On top 
+        of this, I used code motion and reduced memory references in the same way that I did in the first optimization. However, this 
+        optimization only resulted in a 2000 clock tick optimization over the second optimization. I believe that 3x3 loop unrolling 
+        (or maybe 4x4) is better suited for this function because the marginal speedup improvement is from the code motion and reduced 
+        memory references. 6x6 loop unrolling reached an upper limit of the CPU and is likely seeing register spilling and excessive use 
+        of the stack
+applyBlur
+    1)  For my first optimization I first used code motion to move the inner loop bound outside of the loop since it is a constant value. 
+        Then I reduced function calls by moving the outer loop bound outside of the loop to reduce the function calls. Then, I reduced memory
+        references by only referencing in_rows[i][j] once per iteration. This took significant time as there are a lot of references to 
+        in_rows in applyBlur. This optimization resulted in a 50% reduction in clock ticks. This was a huge improvement and I believe that
+        it is due to the fact that memory is referenced a significant amount throughout applyBlur. 
+    2)  For my second optimization, I used 2x1 loop unrolling. I only used one 'accumulator' because there wasn't any purpose in using 
+        more than one. Furthermore, I found that loop unrolling for applyBlur does not provide any significant reduction in clock ticks. 
+        This optimization only resulted in a 2-3000 clock tick reduction. I also tried 3x1 loop unrolling and found that it was actually 
+        slower than 2x1 loop unrolling. This implies that there are not many optimizations that can be done with loop unrolling for 
+        applyBlur, likely because of the limitations of the CPU and register spilling. The function is likely referencing memory a lot.
+    3)  For my third optimization, I removed all of the conditional statements. When analyzing this function I noticed that there are an 
+        incredible amount of if statements that would require the CPU to 'predict' what the outcome of the if statement is. It is likely 
+        that the CPU is not very good at this with the amount of conditionals and therefore is a large amount of branch mis-prediction 
+        occuring. So, I could remove the conditionals by taking all of the edges out of the loop and only using the loop for the center 
+        of the image. This means that the misprediction only happens when we reach the end of a loop. I combined this optimization with 
+        what I used in the first optimization and found that the code was approximately 2000 clock ticks faster than the first optimization 
+        function. I also tried loop unrolling and found no difference.
+
+Cache performance
+
+applyGamma - Since we can fit 64 bytes in each line and each pixel is bytes, then we can fit 16 pixel per line. Therefore, during the first 
+             iteration, .bgra[2] will miss and will load everything from j to j+15 (16 pixels). Therfore, for the next iterations there will
+             be no misses. Since there are 16*3 = 48 cache accesses per 16 iterations and only 1 miss, there are 800 iterations of the inner 
+             loop and 800/16 = 50 16-iteration. Furthermore, the same logic applies to out_rows, which means we add one miss per 16 
+             iterations. The miss rate is 2/48 = .04167 = 4.17%
+
+applyTint - We can use the same logic, in general there are two misses per 16 iterations of the inner loop. However, on the first iteration, 
+            there is an extra miss from loading the tint array. However, this will only happen once as it should stay in the cache for the 
+            entire function. Therefore the miss rate is (2*16*800 + 1)/(800*800) = 4%
+
+applyBlur - The first iteration will have 3 misses the second iteration will have and every succseive iteration will have one. Therefore 
+            the miss rate will be (2+1 + 800*800)/(10*800*800) = 10%s
+
+
+
+
+
