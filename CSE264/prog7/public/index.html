@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fruit Smash</title>
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div class="background">
+      
+      <div class="canvas-container">
+        <canvas id="board" width="500" height="400">
+
+        </canvas>
+      </div>
+      <div class="sidebar">
+        <div class="leaderboard">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboardBody"></tbody>
+          </table>
+        </div>
+        <input type="text" placeholder="Username..." id="loginfield"/>
+        <button id="login">Login</button>
+         <h6>Chat:</h2>
+        <div class="chat-container">
+         
+          <div id="chat-messages">
+            
+          </div>
+        </div>
+        <input id="chatsend" type="text" placeholder="Enter message..." />
+          <button id="chatbutton">Send</button>
+        
+      </div>
+    </div>
+    <script src="js/vendor/jquery.min.js" crossorigin="anonymous"></script>
+    <script
+      src="js/vendor/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://vesta.cse.lehigh.edu:3000/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

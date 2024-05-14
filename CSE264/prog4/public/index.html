@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title> 
+    <link rel="stylesheet" href="styles/styles.css"/>
+  </head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.7.1.js" crossorigin="anonymous"></script>  
+	<script src="scripts/script.js"></script>
+	<div id="container">
+		<form>
+			<label for="title">Title:</label>
+			<input type="text" id="title" name="title" required><br><br>
+
+
+			<label for="author">Author:</label>
+			<input type="text" id="author" name="author" required>
+						<select id="authorSelect">
+				<option value="select">Select an existing author</option>
+			</select><br><br>
+
+			<label for="publisher">Publisher:</label>
+			<input type="text" id="publisher" name="publisher" required>
+			<select id="publisherSelect">
+				<option value="select">Select an existing publisher</option>
+			</select>
+			<br><br>
+
+			<label for="year">Year of Publication:</label>
+			<input type="text" id="year" name="year" required><br><br>
+
+			<label for="genre">Genre:</label>
+			<select id="genre" name="genre" required>
+				<option value="">Select a type</option>
+				<option value="Fiction">Fiction</option>
+				<option value="Sci-Fi">Sci-Fi</option>
+				<option value="History">History</option>
+				<option value="Cooking">Cooking</option>
+				<option value="Mystery">Mystery</option>
+				<option value="Textbooks">Textbooks</option>
+			</select><br><br>
+
+			<legend>Type of Book:</legend>
+				<input type="checkbox" id="hardcover" name="book-type" value="hardcover">
+				<label for="hardcover">Hardcover</label><br>
+
+				<input type="checkbox" id="paperback" name="book-type" value="paperback">
+				<label for="paperback">Paperback</label><br>
+
+				<input type="checkbox" id="ebook" name="book-type" value="ebook">
+				<label for="ebook">eBook</label><br>
+
+				<input type="checkbox" id="audio" name="book-type" value="audio">
+				<label for="audio">Audio</label><br>
+
+			<button type="button" id ="add">Add</button>
+			<button type="button" id = "list">List</button>
+		</form>
+		<table>
+			<thead id="rowTitle">
+			</thead>
+			<tbody id="books">
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minesweeper</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div class="container">
+      <canvas id="board"></canvas>
+      <div class="sidebar">
+        <div id="genBoard">
+          <div>
+            <label for="rows">Rows:</label>
+            <input type="number" id="rows" name="rows">
+          </div>
+          <div>
+            <label for="columns">Columns:</label>
+            <input type="number" id="columns" name="columns">
+          </div>
+          <div>
+            <label for="mines">Mines:</label>
+            <input type="number" id="mines" name="mines">
+          </div>
+          <button id="newBoard">New Board</button>
+        </div>
+        <div id="records">
+          Records (pink = current board):
+          <table id="recordsTable">
+            <thead id="recordsTableColHeaders">
+              <tr>
+                <th>Rows</th>
+                <th>Cols</th>
+                <th>Mines</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id="recordsTableContent"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+   
+    <script src="js/vendor/jquery.min.js" crossorigin="anonymous"></script>
+    <script
+      src="js/vendor/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

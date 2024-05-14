@@ -1,0 +1,124 @@
+body {
+    background-color: gray;
+}
+
+/* Board positioning */
+.flex-container {
+    display: flex;
+    padding-top: 10px;
+}
+.flex-item-left {
+    flex: 80%;
+    margin-right: 10px;
+}
+.flex-item-right {
+    flex: 20%;
+    margin-left: 10px;
+}
+
+/* For the highlight if the board is solved */
+.highlight {
+    background-color: darkgreen;
+}
+
+/* Board Styling*/
+table {
+    text-align: center;
+    border: 1px solid grey;
+    font-size: 20px;
+    width: 100px;
+    height: 800px;
+    color: transparent;
+}
+td {
+    background-color: white;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background-image: url("../forest.jpeg");
+}
+
+/* Button Styling */
+aside div{
+    position: absolute; 
+    top: 6%; 
+    right: 0; 
+}
+button {
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(163, 163, 163);
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    display: block; 
+    margin: 125px; 
+}
+
+
+.one {
+    background-position: 0px 0px;
+}
+
+.two {
+    background-position: -100px 0px;
+}
+
+.three {
+    background-position: -200px 0px;
+}
+
+.four {
+    background-position: -300px 0px;
+}
+
+.five {
+    background-position: 0px -100px;
+}
+
+.six {
+    background-position: -100px -100px;
+}
+
+.seven {
+    background-position: -200px -100px;
+}
+
+.eight {
+    background-position: -300px -100px;
+}
+
+.nine {
+    background-position: 0px -200px;
+}
+
+.ten {
+    background-position: -100px -200px;
+}
+
+.eleven {
+    background-position: -200px -200px;
+}
+
+.twelve {
+    background-position: -300px -200px;
+}
+
+.thirteen {
+    background-position: 0px -300px;
+}
+
+.fourteen {
+    background-position: -100px -300px;
+}
+
+.fifteen {
+    background-position: -200px -300px;
+}
+
+.blank {
+    background-image: none;
+}
+

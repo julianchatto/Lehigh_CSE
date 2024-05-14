@@ -1,0 +1,15 @@
+{
+  "name": "prog6-juc226",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "tinycolor2": "^1.6.0"
+  }
+}

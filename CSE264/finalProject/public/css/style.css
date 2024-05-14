@@ -1,0 +1,89 @@
+body, html {
+	height: 100%;
+	margin: 0;
+    background-color: #83bedd; /* Soft blue */
+    color: #333; /* Dark grey text for readability */
+    font-family: Arial, sans-serif; /* Clear and readable font */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+	overflow-y: auto;
+}
+
+#board {
+    flex-grow: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#genBoard {
+    justify-content: flex-end;
+    background-color: #f4f4f4; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+input[type="number"] {
+    width: 100%; 
+    padding: 8px; 
+    margin: 8px 0; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+button {
+    width: 100%;
+    padding: 10px; 
+    background-color: #007bff; 
+    color: white;
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+#records {
+    margin-top: 50px;
+    justify-content: flex-end;
+    background-color: #f4f4f4; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+#recordsTable {
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-bottom: 0px;
+}
+
+tbody {
+    overflow-y: auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
