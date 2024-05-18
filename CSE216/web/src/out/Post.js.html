@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: Post.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: Post.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { Link } from "react-router-dom";
+import { useContext, useEffect, useState } from 'react';
+import api from './api/posts';
+import DataContext from './context/DataContext';
+ 
+/**
+ * Renders each individual post component
+ * @param {Number} key 
+ * @param {Post} post for the post object
+ * @returns the Post component
+ */
+const Post = ({ key, post, curUser }) => {
+    const { posts, setPosts } = useContext(DataContext);
+    const [user, setUser] = useState({});
+
+    const handleUpVote = async () => {
+        try {
+            const getResponse = await api.get(`/posts/${post.ID}/votes`); // got the users vote
+            let vote = getResponse.data.mData;
+            if (vote === 0) { // they are netural
+                await api.put(`/posts/${post.ID}/votes`, {VoteType: 1}) // upvote
+            } else { // they already liked it or disliked it
+                await api.put(`/posts/${post.ID}/votes`, {VoteType: 0});
+            }
+            if (vote === 1) {
+                post.VoteSum--;
+            } else {
+                post.VoteSum++;
+            }
+            setPosts(posts.map(p => p));
+        } catch (err) {
+            console.log(`Error: ${err.message}`);
+        }
+    }
+    const handleDownVote = async () => {
+        try {
+            const getResponse = await api.get(`/posts/${post.ID}/votes`); // got the users vote
+            let vote = getResponse.data.mData;
+            if (vote === 0) { // they are netural
+                await api.put(`/posts/${post.ID}/votes`, {VoteType: -1}) // downvote
+            } else { // they already liked it or disliked it
+                await api.put(`/posts/${post.ID}/votes`, {VoteType: 0});
+            }
+            if (vote === -1) {
+                post.VoteSum++;
+            } else {
+                post.VoteSum--;
+            }
+            setPosts(posts.map(p => p));
+        } catch (err) {
+            console.log(`Error: ${err.message}`);
+        }
+    }
+     // Fetch the existing comment using the useEffect hook
+    useEffect(() => {
+        const fetchUser = async () => {
+            try {
+                const response = await api.get(`/users/${post.UserID}`);
+                setUser(response.data.mData); // Set the fetched comment text to state
+            } catch (err) {
+                console.error("Failed to fetch user", err);
+            }
+        };
+        fetchUser();
+    }, [post.UserID]);
+    /**
+     * Renders the Post component
+     */
+    return (
+        &lt;article className="post">
+            {(curUser.UserID === user.UserID) ? &lt;Link to={`/profile`}>&lt;h4>Poster: {user.Name}&lt;/h4>&lt;/Link> : &lt;Link to={`/user/${user.UserID}`}>&lt;h4>Poster: {user.Name}&lt;/h4>&lt;/Link>}
+            &lt;br />
+            &lt;Link to={`/post/${post.ID}`}>
+                &lt;h2>{post.Subject}&lt;/h2>
+            &lt;/Link>
+            &lt;p className="postBody">{
+                (post.Message).length &lt;= 25
+                ? post.Message
+                : `${(post.Message).slice(0, 25)}...`  // only display the first 25 characters
+            }&lt;/p>
+            &lt;p className="postDate">
+                &lt;button className="LikeButton" onClick={handleUpVote}>
+                    👍
+                &lt;/button>
+                {post.VoteSum}
+                &lt;button className="LikeButton" onClick={handleDownVote}>👎&lt;/button>
+            &lt;/p>
+
+        &lt;/article>
+    )
+}
+
+
+export default Post</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#Comment">Comment</a></li><li><a href="global.html#EditProfile">EditProfile</a></li><li><a href="global.html#Feed">Feed</a></li><li><a href="global.html#Header">Header</a></li><li><a href="global.html#Home">Home</a></li><li><a href="global.html#Nav">Nav</a></li><li><a href="global.html#NewComment">NewComment</a></li><li><a href="global.html#NewPost">NewPost</a></li><li><a href="global.html#Post">Post</a></li><li><a href="global.html#PostPage">PostPage</a></li><li><a href="global.html#Profile">Profile</a></li><li><a href="global.html#User">User</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Sun Apr 14 2024 20:12:54 GMT-0400 (Eastern Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

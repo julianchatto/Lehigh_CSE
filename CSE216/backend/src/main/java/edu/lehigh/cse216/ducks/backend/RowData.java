@@ -1,0 +1,8 @@
+package edu.lehigh.cse216.ducks.backend;
+
+public abstract class RowData {
+    /*
+     * Construct a RowData object by providing values for its fields
+     */
+    public RowData() {}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "team-ducks-421023",
+  "private_key_id": "156648e86e1d030f7caa844c19ebfae9c52c104a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6S8EQXerMbK5f\nGhzAg5CUQuM6QhHDtTbCsuLo3p5ZauXD0ksrmuO0UpfqAEBfXfrrbP/LbzkbYKoy\ndOvF/ekZSq3ON+fYSKB7WNPISnZx2/BH8f9hOEEh1vBBoSxISOEiVA9SV+NifZGK\nqP+XEi96jzBm/+VPrag6ZbwfG+a2x6dCtoG1lF8vbDq5OeQPWFaZ619A/XhWA7/P\nPi5rBBEcwzBhKxS1Le+Qoousa6OhMGwWQuC1ckNX3qn9m6jl2bqkuI6FkIZCa5XO\n/fxPmJcboWEmdAqetrNNpywun8I9FDLsIGnccxIecGi1osK63ljRxUtVLCHNDIQj\ngO0Yg7EXAgMBAAECggEAF9Iv8aPQrisHcOmp24P3LL4QyBZCpz+4rNSq5xPwM4bT\nsmJlckHv89LL0gQONyORPiFF5AFoz/NgT+tbaom5EJ7X8pJ7dtBylNMa4XWEB7MT\n2l87RHco/Oa6+eld/DA1eWo+O005qhJcVdqeM/cDUyyUB9eYvsN5y13O3Dt5GM3e\nvbocwUQUGnKyNTAo9JpZAoYACdefLKK76s8EmIZTlqiLka9GU3iXofyra8ZXtFxp\nYc3xGf8EiKswRTnTBnyaWelclccJn8ec87r0MWfg0hBtS0i58x2JKYfiOaI4ckWn\nGHflxlkd0b55YA1We3XJJnAGODfclRWO7A5ELLO94QKBgQDqBoC8W/tZQdH5Zw6o\n/MHBBZeD89z/5SkWHG4qJsNry/8jZGM+NcPbqdkbwKy7IPypH6FbBcSvHA87c9/0\nwaXaEfCEiOCYHzpVAZr9LUdvG17h5HQdCiDS51ASVOt5sJfeU6r6HHnB8MnU0e5M\nUGDEn+n5C6A4dlv7Vsuf3J2HOwKBgQDLye5VMX354DKc+KY3YiiuW8f8ixcnDPZD\nIRDMb+jImZcjCWbvtVXxXRAlPug57Dg6xQpHAHIdWMd122sL/ZmkAnofw6Ij8JDJ\nrnlcW78vwx+w4MrbgBKB+JOYZhfuebnAy8/K9iP0Umwx7vx7CPhd7tuLtjy0Rtxn\nBjngguW31QKBgC6bdPAOcZRpI2REPgsxq3TBpFdHLfBYt0IMD3Sdm7XQPtPRnmI5\nWvRYc0Cvsrbh7u/PuNbj4zPspqv0e9nG5zzy7a+3guNI9NkRJMjfR6a9ELx0Pxu5\ndKgMIUpFV1A490Xz68079pPFXKzh0k+ogl0ma/aJdjNIfzEjLBJ+YXEZAoGATzCx\n/8MSvBYGNP9ev+jR/CdISHfYUGF2FNH1kCvwnnsowwG1UXL66acLTh3q6g9ELnpB\nKyQeNA86uy6/o1Ix8QzRXiSMjkC+UtEM8fnpCmtdlkNUMQXMq1roJ/GMXSxKJYRN\nxAXwJNIenyzKShlLQl0+TUVMw5VBsns15GuZTt0CgYA76olM7Srs4/0QlZ5ldfY3\nnsqL6Cr8XrN807OnnOmAGe6qkoSC/I+HjbHX/AxJzF9ZYwr11Fqc/iop9gIZHfDe\nPO7wyUjV51Fw+tiXIG+2A1MS7f92Wm8lx0PwZOyH7o6DN0OC8XdEbsDwG+AtCui2\nuCXu2c8cvFYkLrNZPMZGNg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "team-ducks@team-ducks-421023.iam.gserviceaccount.com",
+  "client_id": "107346090281121576466",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/team-ducks%40team-ducks-421023.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
