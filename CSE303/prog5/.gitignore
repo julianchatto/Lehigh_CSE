@@ -1,0 +1,6 @@
+.vscode/
+*.pri
+*.pub
+obj64/
+__pycache__/
+mr_file_result

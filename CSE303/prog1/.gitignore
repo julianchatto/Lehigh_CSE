@@ -1,0 +1,12 @@
+.vscode/
+*.pri
+*.pub
+obj64/
+bash_history
+taoctou bug
+__pycache__
+bob.file.dat
+company.dir
+filename.txt
+output.txt
+alice.file.dat
