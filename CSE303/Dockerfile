@@ -35,4 +35,5 @@ WORKDIR "/root"
 # - Be sure to type docker rm cse303dev to clean up from your container, so you can start a new one
 #   with the same name.
 
+# https://www.cse.lehigh.edu/~stevelu/spear-tutorials/viewer.html
 #  docker run --privileged --rm -v /c/Users/julia/OneDrive/Desktop/cse303:/root --name cse303dev -it cse303
