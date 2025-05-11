@@ -1,1 +1,3 @@
-https://docs.google.com/document/d/1X46APR6290lML_uRFJeScOKnuBx72p2BzfA8X1yi_5o/edit?usp=sharing 
+# CSE 202
+
+Project for Lehigh University CSE 216 - Software Engineering Spring 2024 (Stephen Lee-Urban)

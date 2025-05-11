@@ -1,0 +1,5 @@
+(define scopey (lambda (x) (let ((y x)) (lambda (z) (begin (set! y (+ y z)) y))))) 
+(define jo (scopey 10))
+(jo 10)
+(jo 10)
+(jo 10)

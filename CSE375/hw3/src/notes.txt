@@ -1,0 +1,14 @@
+1) avoid unnecessary or unintentional access to common data
+2) minimize the size and execution time of critcal sections
+3) optimize the concurrency control mechanisms
+    - use lightweight spinlocks and lock striping in fine-grained locking implementation
+    - optimize TSX lock elision to reduce transaction abort rate in course-grained locking 
+
+4) to elimante r/w false misses, changer the order of the basic cuckoo hasing insertions
+    - allow concurrent reads and cuckoo movment by moving "holes" backwards along the cuckoo path instead of moving "items" forward alon gthe cuckoo path
+5) Use lock striping 
+6) allow reads to be performed with no cache line writes by using optimistic locking
+
+
+
+Lock-Free Lookup and Removal
